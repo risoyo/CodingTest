@@ -2,10 +2,10 @@
 import sys
 from itertools import chain
 if __name__ == "__main__":
-    n = int(sys.stdin.readline().strip())  # 读取n
-    line = sys.stdin.readline().strip()  # 读取第二行
-    #n = 5
-    #line = "1 2 3 4 5"
+   # n = int(sys.stdin.readline().strip())  # 读取n
+    #line = sys.stdin.readline().strip()  # 读取第二行
+    n = 5
+    line = "1 2 3 4 5"
     line_split = line.split()
     line_new = []
     line_top = []
